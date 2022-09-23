@@ -1,0 +1,24 @@
+{
+  "name": "nsnp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedstoneWizard08/nsnp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedstoneWizard08/nsnp/issues"
+  },
+  "homepage": "https://github.com/RedstoneWizard08/nsnp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http-proxy": "^1.18.1"
+  }
+}
