@@ -2,7 +2,7 @@ const http = require("http");
 const express = require("express");
 const httpProxy = require("http-proxy");
 
-const upstream = "https://ide.nosadnile.net";
+const upstream = "https://gitpod.nosadnile.net";
 
 const app = express();
 const server = http.createServer(app);
