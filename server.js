@@ -2,7 +2,7 @@ const http = require("http");
 const express = require("express");
 const httpProxy = require("http-proxy");
 
-const upstream = "https://ide.nosadnile.net";
+const upstream = "http://dns.nosadnile.net:3001";
 
 const app = express();
 const server = http.createServer(app);
